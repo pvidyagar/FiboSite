@@ -183,7 +183,28 @@ h1, h2, h3, h4, h5, h6 {
 	color: #fff;
 	background-color: #fec503
 }
-
+.feature_title{
+    position:relative;
+    padding-bottom:10px;
+    color:#EE3B24!important;
+    width: 45%;
+    margin: 10px auto;
+    font-size: 40px;
+    line-height: 50px;
+    text-transform:uppercase;
+}
+.feature_title:hover{
+    cursor: pointer;
+    animation: pulse 1s ease-in-out 100ms both;
+    -webkit-animation:pulse 1s ease-in-out 100ms both;
+    -o-animation:pulse 1s ease-in-out 100ms both;
+}
+.feature_sub{
+    color:#000;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 400;
+}
 @media ( min-width :768px) {
 	.navbar-default {
 		background-color: transparent;
@@ -225,7 +246,7 @@ header {
 }
 
 header .intro-text {
-	padding-top: 100px;
+	padding-top: 50px;
 	padding-bottom: 50px
 }
 
@@ -233,7 +254,7 @@ header .intro-text .intro-lead-in {
 	font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial,
 		sans-serif;
 	font-style: italic;
-	font-size: 22px;
+	font-size: 12px;
 	line-height: 22px;
 	margin-bottom: 25px
 }
@@ -270,7 +291,7 @@ header .intro-text .intro-heading {
     animation: pulse 1s ease-in-out 100ms both;
     -webkit-animation:pulse 1s ease-in-out 100ms both;
     -o-animation:pulse 1s ease-in-out 100ms both;
-}
+	}
 	header .intro-text .intro-heading {
 		font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
 		text-transform: uppercase;
@@ -311,6 +332,47 @@ section h3.section-subheading {
 	margin: 15px 0;
 	text-transform: none
 }
+.btn-circle {
+    width: 70px;
+    height: 70px;
+    margin-top: 15px;
+    padding: 7px 16px;
+    border: 2px solid #fff;
+    border-radius: 100%!important;
+    font-size: 40px;
+    color: #fec503;
+    background: 0 0;
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+
+.btn-circle:hover,
+.btn-circle:focus {
+    outline: 0;
+    color: #fec503;
+    background: rgba(255,255,255,.3);
+}
+
+.btn-circle i.animated {
+    -webkit-transition-property: -webkit-transform;
+    -webkit-transition-duration: 1s;
+    -moz-transition-property: -moz-transform;
+    -moz-transition-duration: 1s;
+}
+
+.btn-circle:hover i.animated {
+    -webkit-animation-name: pulse;
+    -moz-animation-name: pulse;
+    -webkit-animation-duration: 1.5s;
+    -moz-animation-duration: 1.5s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+}
+
+
 
 #portfolio .portfolio-item {
 	margin: 0 0 15px;
