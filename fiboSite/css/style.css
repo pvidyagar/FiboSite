@@ -140,33 +140,6 @@ a {
     margin: 15px auto 20px;
     text-align: center;
 }
-
-.feature_title {
-    position: relative;
-    padding-bottom: 10px;
-    color: #000;
-    font-weight: 00;
-    width: 45%;
-    margin: 10px auto;
-    font-size: 40px;
-    line-height: 50px;
-    text-transform: uppercase;
-}
-
-.feature_title:hover {
-    cursor: pointer;
-    animation: pulse 1s ease-in-out 100ms both;
-    -webkit-animation: pulse 1s ease-in-out 100ms both;
-    -o-animation: pulse 1s ease-in-out 100ms both;
-}
-
-.feature_sub {
-    color: #000;
-    font-size: 18px;
-    line-height: 25px;
-    font-weight: 400;
-}
-
 .btn-main {
     text-decoration: none;
     -webkit-transition: all .3s ease-in-out;
@@ -1541,14 +1514,14 @@ figcaption .links a {
 }
 
 .testimonial-slide .testimonial-text:before {
-    content: "";
+    content: "ï„�";
     font-family: FontAwesome;
     padding-right: 10px;
     font-size: 25px;
 }
 
 .testimonial-slide .testimonial-text:after {
-    content: "";
+    content: "ï„Ž";
     font-family: FontAwesome;
     font-size: 25px;
     padding-left: 10px;
@@ -1637,11 +1610,6 @@ figcaption .links a {
 #client-carousel {
     padding: 30px 0px;
 }
-
-#client h3.feature_title {
-    color: #fff !important;
-}
-
 .client-carousel .owl-controls {
     margin: 70px 0px;
     display: none !important;
@@ -1689,9 +1657,6 @@ figcaption .links a {
 
 #contact .feature_header {
     margin: 20px 0px;
-}
-
-#contact .feature_title {
 }
 
 #contact .divider {
@@ -1851,7 +1816,7 @@ textarea:hover {
     display: inline-block;
     margin-right: 8px;
     color: #5B5B5B;
-    content: "";
+    content: "ï„…";
     font-family: FontAwesome;
 }
 

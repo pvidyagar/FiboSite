@@ -186,10 +186,11 @@ h1, h2, h3, h4, h5, h6 {
 .feature_title{
     position:relative;
     padding-bottom:10px;
-    color:#EE3B24!important;
+    color:#fec605!important;
     width: 45%;
     margin: 10px auto;
     font-size: 40px;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif!important;
     line-height: 50px;
     text-transform:uppercase;
 }
@@ -203,7 +204,234 @@ h1, h2, h3, h4, h5, h6 {
     color:#000;
     font-size: 18px;
     line-height: 25px;
-    font-weight: 400;
+    font-weight: 100;
+}
+.feature_sub_contact{
+    font-size: 25px;
+    line-height: 25px;
+    font-weight: 100;
+    color: #fed136;
+    font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial,cursive;
+    text-transform: none;
+}
+.send_message_contact_button{
+
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 100;
+    text-transform: none;
+}
+
+.feature_content:hover .feature_content:after{
+    border:2px solid#fff!important;
+}
+.feature_content:hover i{
+    top: -10px;
+}
+
+.feature_content:hover i,.feature_content:hover  h5{
+      top: -10px;
+}
+.feature_content i{
+    font-size:60px;
+    line-height: 60px;
+    z-index:3;
+    position: relative;
+     -webkit-transition: all .4s ease .1s;
+    -o-transition: all .4s ease .1s;
+    transition: all .4s ease .1s;
+    display: block;
+}
+
+.feature_content h5{
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 19px;
+    margin: 0px 0px 10px;
+    text-transform: uppercase;
+    padding-top: 34px;
+   -webkit-transition: all 150ms linear 0s;
+    -o-transition: all 150ms linear 0s;
+    transition: all 150ms linear 0s;
+    letter-spacing: -1px;
+}
+
+.feature_content p{
+    font-size: 14px;
+    line-height: 24px;
+    color: #777;
+}
+.feature_content a:hover{
+    color: #222;
+}
+.feature_content a{
+    text-decoration:none;
+    padding: 8px;
+    margin-top: 10px;
+}
+.feature_content a:hover{
+    text-decoration:none;
+}
+
+.feature-tab,.team-items,.pricing,.single_blog ,#testimonial .owl-carousel .owl-wrapper,.contact_full{
+    margin-top: 40px;
+}
+
+.carousel .item {
+    -webkit-transition: opacity .3s;
+    -moz-transition: opacity .3s;
+    -ms-transition: opacity .3s;
+    -o-transition: opacity .3s;
+    transition: opacity .3s;
+}
+/* Team Section Area
+=============================== */
+.single-member {
+    height: auto;
+    font-weight: 700;
+    margin-bottom: 30px;
+    width: 270px;
+    border-radius: 7px;
+    padding-bottom: 25px;
+    margin: 0 10px;
+}
+
+.item .single-member h3 {
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 700;
+}
+.single-member h5 {
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.line2{
+    width: 40px;
+    height: 3px;
+    color: #222;
+    margin: 0px auto;
+}
+
+.overlay-hover:hover .overlay-effect{
+    opacity:1;
+   -webkit-transition: top 0.35s ease 0s;
+    -o-transition: top 0.35s ease 0s;
+    transition: top 0.35s ease 0s;
+    top: 0px;
+}
+.overlay-hover {
+    position: relative;
+    overflow:hidden;
+}
+.overlay-effect{
+    position: absolute;
+    height: 240px;
+    width: 100%;
+    opacity:0;
+    cursor: pointer;
+    top: -207px;
+    -webkit-transition: top 0.35s ease 0s;
+    -o-transition: top 0.35s ease 0s;
+    transition: top 0.35s ease 0s;
+    z-index:10;
+}
+.overlay-hover img{
+    width: 100%!important;
+    height: 240px!important;
+}
+.overlay-effect ul.social{
+    bottom:5%;
+    position: absolute;
+    width: 100%;
+}
+.overlay-effect p{
+    color: #fff;
+    padding: 20px;
+}
+.overlay-effect ul.social li{
+    padding: 10px 0px;
+}
+
+.overlay-effect ul.social i{
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.overlay-effect ul li a {
+    text-decoration: none;
+    color: #4E4E4E;
+}
+
+/* Carousel  TEAM Css
+=========================== */
+.team-items{
+        width:100%;
+        height:auto;
+        position:relative;
+        float: left;
+    }
+
+#owl-demo .item{
+  overflow: hidden;
+}
+
+#owl-demo .owl-item{
+  margin: 0 auto;
+}
+
+#owl-demo .item img{
+  margin-bottom: 25px;
+}
+#team  .owl-theme .owl-controls .owl-buttons{
+    padding: 0px;
+}
+.owl-carousel {
+    display: block!important;
+}
+
+ #team .owl-theme .owl-controls .owl-buttons .owl-prev {
+    width: 50px;
+    height: 50px;
+    font-size: 35px;
+    border-radius: 50%;
+    padding-left: 8px!important;
+    padding-top: 6px;
+    position: absolute;
+    left: -80px;
+    top: 30%;
+    opacity:1;
+}
+#team .owl-theme .owl-controls .owl-buttons .owl-next {
+   width: 50px;
+   height: 50px;
+   font-size: 35px;
+   border-radius: 50%;
+   padding-left: 12px;
+   padding-top: 6px;
+   position: absolute;
+   right:-80px;
+    top: 30%;
+    opacity:1;
+}
+ #team .owl-theme .owl-controls .owl-buttons .owl-prev
+,#team .owl-theme .owl-controls .owl-buttons .owl-next{
+    -webkit-transition: all .3s ease 0s;
+    -o-transition: all .3s ease 0s;
+    transition: all .3s ease 0s;
+}
+ #team .owl-theme .owl-controls .owl-buttons .owl-prev:hover
+,#team .owl-theme .owl-controls .owl-buttons .owl-next:hover {
+}
+.owl-theme .owl-controls .owl-buttons { 
+}
+
+.owl-theme .owl-controls .owl-buttons .owl-next,
+.owl-theme .owl-controls .owl-buttons .owl-prev {
+    float: left;
+    margin: 0px 10px;
 }
 @media ( min-width :768px) {
 	.navbar-default {
@@ -262,9 +490,9 @@ header .intro-text .intro-lead-in {
 header .intro-text .intro-heading {
 	font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-transform: uppercase;
-	font-weight: 700;
-	font-size: 50px;
-	line-height: 50px;
+	font-weight: 0;
+	font-size: 30px;
+	line-height: 30px;
 	margin-bottom: 25px
 }
 
@@ -332,6 +560,7 @@ section h3.section-subheading {
 	margin: 15px 0;
 	text-transform: none
 }
+
 .btn-circle {
     width: 70px;
     height: 70px;
@@ -351,7 +580,7 @@ section h3.section-subheading {
 .btn-circle:focus {
     outline: 0;
     color: #fec503;
-    background: rgba(255,255,255,.3);
+    background: rgba(255,255,255,.2);
 }
 
 .btn-circle i.animated {
@@ -846,22 +1075,7 @@ ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li
     height: 5px;
     }
 
-.feature_title{
-    position:relative;
-    padding-bottom:10px;
-    color:#EE3B24!important;
-    width: 45%;
-    margin: 10px auto;
-    font-size: 40px;
-    line-height: 50px;
-    text-transform:uppercase;
-}
-.feature_title:hover{
-    cursor: pointer;
-    animation: pulse 1s ease-in-out 100ms both;
-    -webkit-animation:pulse 1s ease-in-out 100ms both;
-    -o-animation:pulse 1s ease-in-out 100ms both;
-}
+
 .portfolio-modal .close-modal .lr .rl {
 	height: 75px;
 	width: 1px;
