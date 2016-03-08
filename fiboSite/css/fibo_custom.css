@@ -130,7 +130,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-default .navbar-brand {
-	color: #fed136;
+	color: #000000;
 	font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial,
 		cursive
 }
@@ -164,11 +164,11 @@ h1, h2, h3, h4, h5, h6 {
 	text-transform: uppercase;
 	font-weight: 400;
 	letter-spacing: 1px;
-	color: #fff
+	color: #000000
 }
 
 .navbar-default .nav li a:hover, .navbar-default .nav li a:focus {
-	color: #fed136;
+	color:  #fec605;
 	outline: 0
 }
 
@@ -433,6 +433,7 @@ h1, h2, h3, h4, h5, h6 {
     float: left;
     margin: 0px 10px;
 }
+
 @media ( min-width :768px) {
 	.navbar-default {
 		background-color: transparent;
@@ -452,16 +453,19 @@ h1, h2, h3, h4, h5, h6 {
 		border-radius: 3px
 	}
 	.navbar-default.navbar-shrink {
-		background-color: #222;
-		padding: 10px 0
+		background-color: #ffffff;
+		padding: 0px 0 
 	}
 	.navbar-default.navbar-shrink .navbar-brand {
 		font-size: 1.5em
 	}
 }
-
+.navbar-default.navbar-shrink {
+		background-color: #ffffff;
+		padding: 0px 0 
+	}
 header {
-	background-image: url(../img/header-bg.jpg);
+	background-image: url(../img/wallpaper/498131.jpg);
 	background-repeat: none;
 	background-attachment: scroll;
 	background-position: center center;
@@ -488,14 +492,26 @@ header .intro-text .intro-lead-in {
 }
 
 header .intro-text .intro-heading {
-	font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-	text-transform: uppercase;
-	font-weight: 0;
-	font-size: 30px;
-	line-height: 30px;
-	margin-bottom: 25px
+	font-family: "HelveticaNeueW01-Thin" !important;
+	/* text-transform: uppercase; */
+    font-size: 3.5rem !important;
+    line-height: 4rem !important;
+	color: #ffffff!important;
+	letter-spacing: 1px !important;
+	    
 }
 
+header .intro-lead-in-brandName {
+		color: #f3bd01;
+    	font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial,cursive;
+		font-size: 50px;
+}
+header .intro-lead-in-brandName:hover{
+    cursor: pointer;
+    animation: pulse 1s ease-in-out 100ms both;
+    -webkit-animation:pulse 1s ease-in-out 100ms both;
+    -o-animation:pulse 1s ease-in-out 100ms both;
+}
 @media ( min-width :768px) {
 	header .intro-text {
 		padding-top: 300px;
@@ -510,7 +526,8 @@ header .intro-text .intro-heading {
 		margin-bottom: 25px
 	}
 	header .intro-lead-in-brandName {
-		color: #fed136;
+		/* color: #fed136; */
+		color: #f3bd01;
     	font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial,cursive;
 		font-size: 100px;
 	}
@@ -522,7 +539,7 @@ header .intro-text .intro-heading {
 	}
 	header .intro-text .intro-heading {
 		font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-		text-transform: uppercase;
+		/* text-transform: uppercase; */
 		font-weight: 700;
 		font-size: 50px;
 		line-height: 50px;
