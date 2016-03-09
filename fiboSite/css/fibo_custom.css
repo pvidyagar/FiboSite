@@ -183,15 +183,113 @@ h1, h2, h3, h4, h5, h6 {
 	color: #fff;
 	background-color: #fec503
 }
+
+/* Feature Details Area
+=============================== */
+
+/* Navbar CSS desktop view Start */
+@media ( min-width :768px) {
+	.feature_title {
+		position: relative;
+		padding-bottom: 10px;
+		color: #fec605 !important;
+		width: 45%;
+		margin: 10px auto;
+		font-size: 40px;
+		font-family: Montserrat, "Helvetica Neue", Helvetica, Arial,
+			sans-serif !important;
+		line-height: 50px;
+		text-transform: uppercase;
+	}
+	.feature_title:hover {
+		cursor: pointer;
+		animation: pulse 1s ease-in-out 100ms both;
+		-webkit-animation: pulse 1s ease-in-out 100ms both;
+		-o-animation: pulse 1s ease-in-out 100ms both;
+	}
+	.feature_sub {
+		color: #000;
+		font-size: 18px;
+		line-height: 25px;
+		font-weight: 100;
+	}
+	.feature_sub_contact {
+		font-size: 25px;
+		line-height: 25px;
+		font-weight: 100;
+		color: #fed136;
+		font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial,
+			cursive;
+		text-transform: none;
+	}
+	.send_message_contact_button {
+		font-size: 18px;
+		line-height: 25px;
+		font-weight: 100;
+		text-transform: none;
+	}
+	.feature_content:hover .feature_content:after {
+		border: 2px solid #fff !important;
+	}
+	.feature_content:hover i {
+		top: -10px;
+	}
+	.feature_content:hover i, .feature_content:hover  h5 {
+		top: -10px;
+	}
+	.feature_content i {
+		font-size: 60px;
+		line-height: 60px;
+		z-index: 3;
+		position: relative;
+		-webkit-transition: all .4s ease .1s;
+		-o-transition: all .4s ease .1s;
+		transition: all .4s ease .1s;
+		display: block;
+	}
+	.feature_content h5 {
+		font-size: 16px;
+		font-weight: 800;
+		line-height: 19px;
+		margin: 0px 0px 10px;
+		text-transform: uppercase;
+		padding-top: 34px;
+		-webkit-transition: all 150ms linear 0s;
+		-o-transition: all 150ms linear 0s;
+		transition: all 150ms linear 0s;
+		letter-spacing: -1px;
+	}
+	.feature_content p {
+		font-size: 14px;
+		line-height: 24px;
+		color: #777;
+	}
+	.feature_content a:hover {
+		color: #222;
+	}
+	.feature_content a {
+		text-decoration: none;
+		padding: 8px;
+		margin-top: 10px;
+	}
+	.feature_content a:hover {
+		text-decoration: none;
+	}
+	.feature-tab, .team-items, .pricing, .single_blog, #testimonial .owl-carousel .owl-wrapper,
+		.contact_full {
+		margin-top: 40px;
+	}
+}
+
 .feature_title{
     position:relative;
     padding-bottom:10px;
     color:#fec605!important;
     width: 45%;
     margin: 10px auto;
-    font-size: 40px;
+    font-size: 20px;
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif!important;
-    line-height: 50px;
+    line-height: 25px;
     text-transform:uppercase;
 }
 .feature_title:hover{
@@ -202,14 +300,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 .feature_sub{
     color:#000;
-    font-size: 18px;
-    line-height: 25px;
-    font-weight: 100;
+    font-size: 13px;
+    line-height: 15px;
+    font-weight: 50;
 }
 .feature_sub_contact{
-    font-size: 25px;
-    line-height: 25px;
-    font-weight: 100;
+    font-size: 10px;
+    line-height: 12px;
+    font-weight: 50;
     color: #fed136;
     font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial,cursive;
     text-transform: none;
@@ -223,7 +321,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .feature_content:hover .feature_content:after{
-    border:2px solid#fff!important;
+    border:2px solid #fff !important;
 }
 .feature_content:hover i{
     top: -10px;
@@ -232,6 +330,7 @@ h1, h2, h3, h4, h5, h6 {
 .feature_content:hover i,.feature_content:hover  h5{
       top: -10px;
 }
+ 
 .feature_content i{
     font-size:60px;
     line-height: 60px;
@@ -277,6 +376,8 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 40px;
 }
 
+
+
 .carousel .item {
     -webkit-transition: opacity .3s;
     -moz-transition: opacity .3s;
@@ -284,6 +385,7 @@ h1, h2, h3, h4, h5, h6 {
     -o-transition: opacity .3s;
     transition: opacity .3s;
 }
+
 /* Team Section Area
 =============================== */
 .single-member {
@@ -460,7 +562,8 @@ h1, h2, h3, h4, h5, h6 {
 		border-radius: 3px
 	}
 	.navbar-default.navbar-shrink {
-		background-color: #ffffff;
+		background-color: rgba(56, 65, 71, 0.8);
+    	border-top-color: rgba(36, 42, 46, 0.5);
 		padding: 0px 0 
 	}
 	.navbar-default.navbar-shrink .navbar-brand {
@@ -478,7 +581,8 @@ h1, h2, h3, h4, h5, h6 {
 		border: 0
 	}
 .navbar-default.navbar-shrink {
-		background-color: #ffffff;
+		background-color: rgba(56, 65, 71, 0.8);
+    	border-top-color: rgba(36, 42, 46, 0.5);
 		padding: 0px 0 
 	}
 /* Navbar CSS Mobile view End*/
@@ -574,7 +678,7 @@ header .intro-lead-in-brandName:hover{
 /* Navbar CSS Desktop view End*/
 
 section {
-	padding: 100px 0
+	padding: 50px 0
 }
 
 section h2.section-heading {
@@ -595,7 +699,7 @@ section h3.section-subheading {
 
 @media ( min-width :768px) {
 	section {
-		padding: 150px 0
+		padding: 50px 0
 	}
 }
 
@@ -1154,4 +1258,30 @@ img::-moz-selection {
 
 body {
 	webkit-tap-highlight-color: #fed136
+}
+
+.callout {
+	padding-top: 100px;
+	padding-bottom: 100px
+    display: table;
+    width: 100%;
+    height: 300px;
+    color: #fff;
+    background: url(../img/SwitchImg.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.text-vertical-center h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 4.5em;
+    font-weight: 700;
 }
